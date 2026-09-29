@@ -8,6 +8,28 @@ tamamen cihazda tutar; sunucu ya da hesap gerektirmez.
 > uygulamayı bambaşka bir uygulama sayar ve cihazdaki mevcut veri erişilemez
 > hale gelir. Kullanıcının gördüğü ad `İş Takip`'tir.
 
+## Ekran Görüntüleri
+
+<table>
+<tr>
+<td width="33%"><img src="ekran-goruntuleri/01-depo.png" alt="Depo ana ekranı"><br><sub><b>Depo</b> — her dalın toplam adedi ve çeşidi</sub></td>
+<td width="33%"><img src="ekran-goruntuleri/02-kategori.png" alt="Kategori seviyesi"><br><sub><b>Dallanma</b> — Telefon altındaki markalar</sub></td>
+<td width="33%"><img src="ekran-goruntuleri/03-urunler.png" alt="Ürün listesi"><br><sub><b>Ürünler</b> — üç seviye aşağıda, alış/satış/kar</sub></td>
+</tr>
+<tr>
+<td><img src="ekran-goruntuleri/04-urun-detay.png" alt="Ürün detayı"><br><sub><b>Ürün detayı</b> — stok, kar ve konum</sub></td>
+<td><img src="ekran-goruntuleri/05-konum-secimi.png" alt="Konum seçimi"><br><sub><b>Ürün ekleme</b> — var olan mı, yeni kategori mi</sub></td>
+<td><img src="ekran-goruntuleri/06-konum-dallari.png" alt="Konum dalları"><br><sub><b>Konum seçici</b> — dallara in ya da yeni başlık aç</sub></td>
+</tr>
+<tr>
+<td><img src="ekran-goruntuleri/07-gorev-defteri.png" alt="Görev defteri"><br><sub><b>Görev defteri</b> — gün gün, tarih-saatli</sub></td>
+<td><img src="ekran-goruntuleri/08-bilanco.png" alt="Bilanço"><br><sub><b>Bilanço</b> — günlük kar ve genel stok</sub></td>
+<td></td>
+</tr>
+</table>
+
+<sub>Görüntülerdeki veriler örnektir, gerçek kayıt değildir.</sub>
+
 ## Ne yapar
 
 **Depo** — Ürünleri istenildiği kadar dallanan kategorilerde tutar
