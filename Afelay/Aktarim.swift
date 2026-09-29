@@ -59,7 +59,7 @@ nonisolated enum AktarimBicimi {
         let f = DateFormatter()
         f.locale = Locale(identifier: "tr_TR")
         f.dateFormat = "dd-MM-yyyy-HHmm"
-        let ad = "Afelay-Yedek-\(f.string(from: Date())).json"
+        let ad = "IsTakip-Yedek-\(f.string(from: Date())).json"
         let url = FileManager.default.temporaryDirectory.appendingPathComponent(ad)
         do { try veri.write(to: url, options: .atomic) } catch { return nil }
         return url
@@ -141,7 +141,7 @@ struct AktarimBolumu: View {
                     gelenPaket = p
                     modSor = true
                 } else {
-                    mesaj = "Dosya okunamadı. Afelay yedek dosyası olduğundan emin ol."
+                    mesaj = "Dosya okunamadı. İş Takip yedek dosyası olduğundan emin ol."
                     mesajGoster = true
                 }
             case .failure(let h):

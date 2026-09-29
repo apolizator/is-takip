@@ -1,7 +1,12 @@
-# Afelay
+# İş Takip
 
-iOS için depo (stok) ve görev takip uygulaması. SwiftUI ile yazıldı, veriyi
+iOS için depo (stok) ve iş/görev takip uygulaması. SwiftUI ile yazıldı, veriyi
 tamamen cihazda tutar; sunucu ya da hesap gerektirmez.
+
+> Xcode projesi, hedef (target) ve paket kimliği tarihsel sebeple hâlâ `Afelay`
+> adını taşır. Bunlar bilerek değiştirilmedi: paket kimliği değişirse iOS
+> uygulamayı bambaşka bir uygulama sayar ve cihazdaki mevcut veri erişilemez
+> hale gelir. Kullanıcının gördüğü ad `İş Takip`'tir.
 
 ## Ne yapar
 

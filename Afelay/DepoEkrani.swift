@@ -44,7 +44,7 @@ struct KategoriEkrani: View {
     @State private var islemHedef: IslemHedef?
 
     private var kategori: Kategori? { vm.kategori(kategoriId) }
-    private var baslik: String { kategori?.isim ?? "Afelay Depo" }
+    private var baslik: String { kategori?.isim ?? "Depo" }
 
     var body: some View {
         List {
